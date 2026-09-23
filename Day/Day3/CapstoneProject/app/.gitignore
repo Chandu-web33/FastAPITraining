@@ -1,0 +1,87 @@
+# === Python Caches & Compiled Files ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Virtual Environments ===
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# === FastAPI / Environment Variables ===
+# NEVER commit your secrets or API keys to git
+
+.env
+.env.*
+!.env.example
+.envrc
+
+# === Databases (Local Development) ===
+# Ignore local SQLite database instances
+*.db
+*.sqlite3
+*.sqlite3-journal
+
+# === Testing & Coverage ===
+.pytest_cache/
+.htmlcov/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# === Type Checkers & Linters ===
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# === IDEs and Editors ===
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+logs/
+*.log
+pip-log.txt
